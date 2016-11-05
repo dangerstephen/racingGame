@@ -1,0 +1,26 @@
+.track{
+  background: url('waterBackground.png');
+border: 1px solid black;
+height:286px;
+width:1150px;
+position: relative;
+
+}
+
+.boat1{
+position: relative;
+background: url('boat1.png');
+width: 150px;
+height: 143px;
+border: 1px solid red;
+
+}
+
+.boat2{
+position: relative;
+background: url('boat2.png');
+width: 150px;
+height: 143px;
+border: 1px solid red;
+
+}

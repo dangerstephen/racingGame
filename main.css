@@ -1,26 +1,38 @@
 .track{
-  background: url('waterBackground.png');
+  background: url('wback1.jpg');
 border: 1px solid black;
-height:286px;
-width:1150px;
-position: relative;
+height:350px;
+width:1050px;
+position: relative;;
+margin: auto;
 
 }
 
 .boat1{
-position: relative;
+position: absolute;
 background: url('boat1.png');
 width: 150px;
 height: 143px;
-border: 1px solid red;
+bottom: auto;
 
 }
 
 .boat2{
-position: relative;
+position: absolute;
 background: url('boat2.png');
 width: 150px;
 height: 143px;
-border: 1px solid red;
+bottom: 14%;
 
+}
+body{
+  text-align: center;
+}
+.boat2parent{
+  text-align: right;
+  
+}
+.boat1parent{
+
+  text-align: left;
 }

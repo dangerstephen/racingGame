@@ -13,7 +13,7 @@ $('.btn-primary').on('click', function(event) {
 })
 $(document).keydown(function(e) {
     if (e.keyCode === 81) {
-        $('.boat1').css('left', '+=10px');
+        $('.boat1').css('left', '+=20px');
         var boat1 = $('.boat1').css('left');
         if (parseInt($boat1.css('left'), startLine) > finishLine) {
             alert("YAY! Go Boat 1!");
@@ -21,7 +21,7 @@ $(document).keydown(function(e) {
         }
     }
     if (e.keyCode === 80) {
-        $('.boat2').css('left', '+=10px');
+        $('.boat2').css('left', '+=20px');
         var boat2 = $('.boat2').css('left');
         if ((parseInt($boat2.css('left'), startLine) > finishLine)) {
             alert("Congrats boat 2, you won!");

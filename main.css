@@ -1,38 +1,59 @@
-.track{
-  background: url('wback1.jpg');
-border: 1px solid black;
-height:350px;
-width:1050px;
-position: relative;;
-margin: auto;
+.track {
+    background: url('wback1.jpg');
+    border: 3px solid black;
+    height: 350px;
+    width: 1050px;
+    position: relative;
+    ;
+    margin: auto;
+    padding: 3px;
+}
+
+.boat1 {
+    position: absolute;
+    background: url('boat1.png');
+    width: 150px;
+    height: 143px;
+    bottom: auto;
+}
+
+.boat2 {
+    position: absolute;
+    background: url('boat2.png');
+    width: 150px;
+    height: 143px;
+    bottom: 14%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f9f9f9;
+    font-size: 13px;
+}
+
+.boat1parent {
+  padding: 3px;
+  margin: 5px;
+
+    border: 2px solid #0083ca;
+
 
 }
 
-.boat1{
-position: absolute;
-background: url('boat1.png');
-width: 150px;
-height: 143px;
-bottom: auto;
+
+.boat2parent {
+padding: 3px;
+margin: 5px;
+    border: 2px solid #ed1c24;
+
 
 }
-
-.boat2{
-position: absolute;
-background: url('boat2.png');
-width: 150px;
-height: 143px;
-bottom: 14%;
-
+h1{
+font-size: 50px;
+font-weight: bold;
 }
-body{
-  text-align: center;
-}
-.boat2parent{
-  text-align: right;
-  
-}
-.boat1parent{
 
-  text-align: left;
+ul{
+  list-style-type: none;
 }

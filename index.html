@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="main.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <!-- Handlebars -->
@@ -22,27 +24,37 @@
 </head>
 
 <body>
-  <h1>Boat Race</h1>
-  <h5>Which boat will win? Only you can find out</h5>
-  <br>
-  <div class="track">
+    <h1>Boat Race</h1>
+    <h5>Which boat will win? Only you can find out</h5>
+    <br>
+
+    <div class="boat1parent"> Boat 1 score:
+        <div class="boat1Score">0</div>
+    </div>
+    <div class="boat2parent"> Boat 2 score:
+        <div class="boat2Score">0</div>
+    </div>
+<br>
+    <div class="track">
 
 
-                <div class="boat1">
+        <div class="boat1">
 
-                </div>
-                <div class="boat2">
+        </div>
+        <div class="boat2">
 
-                </div>
-            </div>
-            <br>
-        <input class="btn btn-primary" type="reset" value="Race again??">
-<div class="boat1parent"> Boat 1 score:
-        <div class="boat1Score"></div>
-      </div>
-      <div class="boat2parent"> Boat 2 score:
-        <div class="boat2Score"></div>
-      </div>
+        </div>
+    </div>
+    <br>
+    <div class="instructions">
+      <ul> How to play?
+        <li>Boat 1, to move tap the 'Q' on the keyboard</li>
+          <li>Boat 2, to move tap the 'P' on the keyboard</li>
+        </ul>
+    </div>
+    <br>
+    <input class="btn btn-primary" type="reset" value="Race again??">
+
 
 
     <script type="text/javascript" src="main.js"></script>
